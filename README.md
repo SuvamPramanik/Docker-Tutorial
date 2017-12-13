@@ -10,7 +10,8 @@ Create a directory **"Docker Tutorial"** which will contain your docker image re
 ## Step 2:
 Go inside the directory and create **Dockerfile**. It is the base file for building your docker image. Paste the following content in it.
 
-```FROM nginx:alpine
+```
+FROM nginx:alpine
 COPY . /usr/share/nginx/html
 ```
 
